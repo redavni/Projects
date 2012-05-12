@@ -1,0 +1,145 @@
+html, body
+{
+    margin: 0;
+    width: auto;
+    padding: 0;
+    font-family: Arial;
+    background: #362f2d url('../images/bg_highlight.png') repeat-x;
+    color: #b5c0af;
+    text-align: center;
+}
+
+a, a:hover, a:visited
+{
+	color: #b5c0af;
+	font-weight: bold;
+}
+
+div.page_header
+{
+    font-family: Verdana;
+    text-align: left;
+    margin: 10px auto 5px auto;
+    width: 98%;
+    font-size: 18pt;
+}
+
+div.horizontal_nav
+{
+	text-align: left;
+    margin: 10px auto 5px auto;
+    width: 98%;
+}
+
+div.horizontal_nav ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: inline;
+}
+
+div.horizontal_nav ul li
+{
+	display: inline;
+}
+
+.bg_panel
+{
+		clear:both;
+    margin: 10px auto 5px auto;
+    padding: 0;
+    font-size: 10pt;
+    width: 98%;
+    text-align: left;
+    background-color: #4c4c4c;
+    border: 1px solid #1F2F2F;
+    overflow: visible;
+}
+
+.bg_panel p
+{
+    margin: 0;
+    padding: 5px 5px 8px 5px;
+}
+
+/* navigation pane styling */
+div.nav_pane
+{
+    margin: 0;
+    padding: 0;
+    width: 30%;
+    float: left;
+    text-align: center;	
+}
+
+.navigation
+{
+    text-align: left;
+    width: 96%;
+    margin: 0 auto;
+}
+
+.navigation ul
+{
+	list-style: none;
+	margin: 5px;
+	padding: 5px;
+}
+
+.navigation ul a
+{
+	text-decoration: none;
+}
+
+.navigation ul li
+{
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.nav_pane h2
+{
+    font-size: 12pt;
+}
+
+/* note pane styles */
+div.note_pane
+{
+    margin: 0;
+    padding: 0;
+    width: 70%;
+    float: right;
+}
+
+.note_pane .notes
+{
+    text-align: left;
+    width: 98%;
+    margin: 0 auto;
+}
+
+.note_pane h2
+{
+    font-size: 12pt;
+}
+
+div.clear
+{
+    clear: both;
+}
+
+/* Represents the individual entries on the site */
+.bg_panel div.entry
+{
+
+}
+
+hr
+{
+    border: 0;
+    height: 2px;
+    color: #1F2F2F;
+    background-color: #362f2d;
+    margin: 2px auto 8px auto;
+}
