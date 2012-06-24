@@ -1,0 +1,36 @@
+﻿<Window x:Class="Noted.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Noted" Height="600" Width="800">
+    <DockPanel Name="dockPanel1" LastChildFill="True">
+        <Label Content="Status Bar Text" Height="28" Name="labelStatus" DockPanel.Dock="Bottom" BorderBrush="#FFD1D1D1" BorderThickness="0,1,0,0">
+            <Label.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFD4D4D4" Offset="1" />
+                    <GradientStop Color="White" Offset="0" />
+                    <GradientStop Color="#FFE5E2E2" Offset="0.09" />
+                </LinearGradientBrush>
+            </Label.Background>
+        </Label>
+        <Menu Name="mainMenuBar" DockPanel.Dock="Top" Height="23">
+            <Menu.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White" Offset="0" />
+                    <GradientStop Color="#FFE5E5E5" Offset="1" />
+                </LinearGradientBrush>
+            </Menu.Background>
+            <MenuItem Header="File">
+                <MenuItem Header="New" Click="MenuItem_Click" />
+                <MenuItem Header="Open" />
+                <MenuItem Header="Save" />
+                <Separator />
+                <MenuItem Header="Exit" Click="MenuItemExit_Click" />
+            </MenuItem>
+        </Menu>
+        <DockPanel Name="dockPanel2" LastChildFill="True">
+            <TreeView Name="treeViewFiles" Width="180" Margin="0" BorderThickness="0,0,1,0" Background="WhiteSmoke" BorderBrush="#FFD1D1D1" />
+            <TabControl Name="tabControlFiles" BorderThickness="0" UseLayoutRounding="False" Padding="0">
+            </TabControl>
+        </DockPanel>
+    </DockPanel>
+</Window>

@@ -1,0 +1,13 @@
+C:\Users\Jake\Documents\GitHub\Projects\notes_gui\Noted\bin\Debug\Noted.exe
+C:\Users\Jake\Documents\GitHub\Projects\notes_gui\Noted\bin\Debug\Noted.pdb
+C:\Users\Jake\Documents\GitHub\Projects\notes_gui\Noted\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jake\Documents\GitHub\Projects\notes_gui\Noted\obj\x86\Debug\MainWindow.baml
+C:\Users\Jake\Documents\GitHub\Projects\notes_gui\Noted\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Jake\Documents\GitHub\Projects\notes_gui\Noted\obj\x86\Debug\App.g.cs
+C:\Users\Jake\Documents\GitHub\Projects\notes_gui\Noted\obj\x86\Debug\Noted_MarkupCompile.cache
+C:\Users\Jake\Documents\GitHub\Projects\notes_gui\Noted\obj\x86\Debug\Noted.g.resources
+C:\Users\Jake\Documents\GitHub\Projects\notes_gui\Noted\obj\x86\Debug\Noted.Properties.Resources.resources
+C:\Users\Jake\Documents\GitHub\Projects\notes_gui\Noted\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Jake\Documents\GitHub\Projects\notes_gui\Noted\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Jake\Documents\GitHub\Projects\notes_gui\Noted\obj\x86\Debug\Noted.exe
+C:\Users\Jake\Documents\GitHub\Projects\notes_gui\Noted\obj\x86\Debug\Noted.pdb
