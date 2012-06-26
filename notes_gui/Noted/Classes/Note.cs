@@ -9,8 +9,8 @@ namespace Noted.Classes
     {
         #region Private Members
 
-        private string _title;
         private string _body;
+        private string _name;
         
         // TODO At Some point implement storage of styling sheets
 
@@ -21,16 +21,16 @@ namespace Noted.Classes
 
         #region Properties
 
-        public string Title
-        {
-            get { return _title; }
-            set { _title = value; }
-        }
-
         public string Body
         {
             get { return _body; }
             set { _body = value; }
+        }
+
+        public string Name
+        {
+            get { return _name; }
+            set { _name = value; }
         }
 
         public DateTime DateCreated
@@ -48,6 +48,11 @@ namespace Noted.Classes
         #endregion
 
         #region Methods
+
+        public override string ToString()
+        {
+            return Name;
+        }
 
         #endregion
 

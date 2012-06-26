@@ -11,3 +11,5 @@ C:\Users\Jake\Documents\GitHub\Projects\notes_gui\Noted\obj\x86\Debug\GenerateRe
 C:\Users\Jake\Documents\GitHub\Projects\notes_gui\Noted\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Users\Jake\Documents\GitHub\Projects\notes_gui\Noted\obj\x86\Debug\Noted.exe
 C:\Users\Jake\Documents\GitHub\Projects\notes_gui\Noted\obj\x86\Debug\Noted.pdb
+C:\Users\Jake\Documents\GitHub\Projects\notes_gui\Noted\obj\x86\Debug\Noted_MarkupCompile.lref
+C:\Users\Jake\Documents\GitHub\Projects\notes_gui\Noted\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
